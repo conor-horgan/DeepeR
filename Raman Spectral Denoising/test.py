@@ -100,7 +100,7 @@ def main_worker(gpu, ngpus_per_node, args):
     # Create model(s) and send to device(s)
     # ----------------------------------------------------------------------------------------
     net = model.ResUNet(3, False).float()
-    net.load_state_dict(torch.load('ResUNet_Fold_7.pt'))
+    net.load_state_dict(torch.load('ResUNet.pt'))
 
     if args.distributed:
         if args.gpu is not None:
