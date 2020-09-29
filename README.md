@@ -19,7 +19,7 @@ Raman spectroscopy enables non-destructive, label-free imaging with unprecedente
 
 DeepeR is designed to improve Raman spectroscopic acquisition times towards high-throughput Raman imaging applications. Working across hyperspectral Raman data, DeepeR performs i) Raman spectral denoising, ii) hyperspectral super-resolution, and iii) transfer learning (Figure 1). Raman spectral denoising is performed using a 1D residual UNet (ResUNet), which takes low SNR input spectra and reconstructs them to produce corresponding high SNR output spectra (i). Hyperspectral super-resolution is achieved using an adapted residual channel attention net-work (RCAN) to output a HR hyperspectral Raman image from a LR input (ii). The combination of i) Raman spectral denoising and ii) hyperspectral super-resolution then enables significant Raman imaging speed-ups for high-throughput applications. Finally, DeepeR can be generalised to a wide range of Raman imaging applications through transfer learning, where neural networks pre-trained on large hyperspectral datasets can be fine-tuned to operate effectively on small hyperspectral datasets (iii).
 
-![DeepeR](/Figures/Figure_1.PNG)
+![Figure_1](/Figures/Figure_1.png)
 DeepeR Overview.
 
 ## Dataset
