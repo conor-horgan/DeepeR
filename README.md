@@ -43,16 +43,17 @@ DeepeR was trained on a collection of hyperspectral Raman images, consisting of 
 
 ## Testing
 ### Raman spectral denoising
-1. Download testing data (dataset available soon).
+1. Download testing data (available soon).
 2. Edit /Raman Spectral Denoising/test.py to point towards the dataset path.
 3. In your python environment, run /Raman Spectral Denoising/test.py:
     ```bash
     python test.py 
     ```
 ### Hyperspectral super-resolution
-1. Download testing data (dataset and pre-trained models available soon).
-2. Edit /Hyperspectral Super-Resolution/test.py to point towards the dataset path.
-3. In your python environment, run /Hyperspectral Super-Resolution/test.py:
+1. Download testing data (available soon).
+2. Download pre-trained models from https://drive.google.com/drive/folders/19-gNLf85adJufYxhnPAjSquQMvnEOYe-?usp=sharing 
+3. Edit /Hyperspectral Super-Resolution/test.py to point towards the dataset path.
+4. In your python environment, run /Hyperspectral Super-Resolution/test.py:
     ```bash
     python test.py 
     ```
