@@ -1,7 +1,7 @@
 # High-throughput molecular imaging via deep learning enabled Raman spectroscopy
 This repository is for DeepeR, introduced in the following paper:
 
-[Conor C. Horgan](https://www.kcl.ac.uk/people/conor-horgan), [Magnus Jensen](https://www.kcl.ac.uk/people/magnus-jensen), [Anika Nagelkerke](https://www.rug.nl/staff/a.p.nagelkerke/), [Jean-Phillipe St-Pierre](https://engineering.uottawa.ca/people/st-pierre-jean-philippe), [Tom Vercauteren](https://www.kcl.ac.uk/people/tom-vercauteren), [Molly M. Stevens](http://www.stevensgroup.org/), and [Mads S. Bergholt](http://www.bergholtlab.com/), "High-throughput molecular imaging via deep learning enabled Raman spectroscopy", [Analytical Chemistry 2021, XXXX, XXX, XXX-XXX](https://doi.org/10.1021/acs.analchem.1c02178).
+[Conor C. Horgan](https://www.kcl.ac.uk/people/conor-horgan), [Magnus Jensen](https://www.kcl.ac.uk/people/magnus-jensen), [Anika Nagelkerke](https://www.rug.nl/staff/a.p.nagelkerke/), [Jean-Phillipe St-Pierre](https://engineering.uottawa.ca/people/st-pierre-jean-philippe), [Tom Vercauteren](https://www.kcl.ac.uk/people/tom-vercauteren), [Molly M. Stevens](http://www.stevensgroup.org/), and [Mads S. Bergholt](http://www.bergholtlab.com/), "High-throughput molecular imaging via deep learning enabled Raman spectroscopy", [Analytical Chemistry 2021, 93, 48, 15850-15860](https://doi.org/10.1021/acs.analchem.1c02178).
 
 The code was implemented in Python 3.7.3 using PyTorch 1.4.0 on a desktop computer with a Core i7-8700 CPU at 3.2 GHz (Intel), 32 GB of RAM, and a Titan V GPU (NVIDIA), running Windows 10 (Microsoft).
 
@@ -76,7 +76,7 @@ Transfer learning enables effective super-resolution for a small dataset of tiss
 ## Citation
 If you find this code helpful in your work, please cite the following [paper](https://doi.org/10.1021/acs.analchem.1c02178):
 
-Conor C. Horgan, Magnus Jensen, Anika Nagelkerke, Jean-Phillipe St-Pierre, Tom Vercauteren, Molly M. Stevens, and Mads S. Bergholt, "High-throughput molecular imaging via deep learning enabled Raman spectroscopy", Analytical Chemistry 2021, XXXX, XXX, XXX-XXX.
+Conor C. Horgan, Magnus Jensen, Anika Nagelkerke, Jean-Phillipe St-Pierre, Tom Vercauteren, Molly M. Stevens, and Mads S. Bergholt, "High-throughput molecular imaging via deep learning enabled Raman spectroscopy", Analytical Chemistry 2021, 93, 48, 15850-15860.
 
 arXiv link: [arXiv:2009.13318](https://arxiv.org/abs/2009.13318)
 
