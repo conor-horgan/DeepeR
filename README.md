@@ -23,7 +23,7 @@ DeepeR is designed to operate on hyperspectral Raman images, where high informat
 DeepeR Overview.
 
 ## Dataset
-DeepeR was trained on a collection of hyperspectral Raman images, consisting of over 1.5 million Raman spectra (400 hours of acquisition) in total. The dataset will be made publicly available soon.
+DeepeR was trained on a collection of hyperspectral Raman images, consisting of over 1.5 million Raman spectra (400 hours of acquisition) in total.
 
 ## Training
 ### Raman spectral denoising
