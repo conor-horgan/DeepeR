@@ -27,14 +27,14 @@ DeepeR was trained on a collection of hyperspectral Raman images, consisting of 
 
 ## Training
 ### Raman spectral denoising
-1. Download [dataset](https://drive.google.com/drive/folders/1590Zqr56txK5_hVlrfe7oEIdcKoUTEIH?usp=sharing).
+1. Download [dataset](https://emckclac-my.sharepoint.com/:f:/g/personal/k1919691_kcl_ac_uk/EqZaY-_FrGdImybIGuMCvb8Bo_YD1Bc9ATBxbLxdDIv0RA?e=5%3aHhLp91&fromShare=true&at=9).
 2. Edit /Raman Spectral Denoising/train.py to point towards the dataset path.
 3. In your python environment, run /Raman Spectral Denoising/train.py with your chosen options, e.g.:
     ```bash
     python train.py --epochs 500 --batch-size 256 --optimizer adam --lr 5e-4 --scheduler one-cycle-lr --batch-norm 
     ```
 ### Hyperspectral super-resolution
-1. Download [dataset](https://drive.google.com/drive/folders/1W9vUVUCW21A4vw_KBjuMj3O5qlAzjdvi?usp=sharing).
+1. Download [dataset](https://emckclac-my.sharepoint.com/:f:/g/personal/k1919691_kcl_ac_uk/EuIIZkQGtT5NgQcYO_SOzigB706Q8b0EddSLEDGUN22EbA?e=5%3axGyu4b&fromShare=true&at=9).
 2. Edit /Hyperspectral Super-Resolution/train.py to point towards the dataset path.
 3. In your python environment, run /Hyperspectral Super-Resolution/train.py with your chosen options, e.g.:
     ```bash
@@ -43,14 +43,14 @@ DeepeR was trained on a collection of hyperspectral Raman images, consisting of 
 
 ## Testing
 ### Raman spectral denoising
-1. (Optionally) download [pre-trained model](https://drive.google.com/drive/folders/1ISE5yxZZcOYLZntN7L-knwOFrRtxpj42?usp=sharing).
+1. (Optionally) download [pre-trained model](https://emckclac-my.sharepoint.com/:f:/g/personal/k1919691_kcl_ac_uk/EiwEL3MaIqJEuTj-4LiSe-4BS_YCzUUE9s6r5BiJSzzZ5A?e=5%3as3UIPB&fromShare=true&at=9).
 2. Edit /Raman Spectral Denoising/test.py to point towards the dataset path.
 3. In your python environment, run /Raman Spectral Denoising/test.py:
     ```bash
     python test.py 
     ```
 ### Hyperspectral super-resolution
-1. (Optionally) download [pre-trained models](https://drive.google.com/drive/folders/1o8P3ztMcggd7-iQo8ohEEOYagJ6SBTpq?usp=sharing)
+1. (Optionally) download [pre-trained models](https://emckclac-my.sharepoint.com/:f:/g/personal/k1919691_kcl_ac_uk/Eo9TjydJcu9NpLNuw_luxVQB1Pa1s3rABLBXM5JCkGzU4A?e=5%3akkHnB5&fromShare=true&at=9)
 2. Edit /Hyperspectral Super-Resolution/test.py to point towards the dataset path.
 3. In your python environment, run /Hyperspectral Super-Resolution/test.py:
     ```bash
