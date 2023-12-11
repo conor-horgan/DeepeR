@@ -27,7 +27,7 @@ DeepeR was trained on a collection of hyperspectral Raman images, consisting of 
 
 ## Training
 ### Raman spectral denoising
-1. Download [dataset](https://emckclac-my.sharepoint.com/:f:/g/personal/k1919691_kcl_ac_uk/EqZaY-_FrGdImybIGuMCvb8Bo_YD1Bc9ATBxbLxdDIv0RA?e=5%3aHhLp91&fromShare=true&at=9).
+1. Download [dataset](https://emckclac-my.sharepoint.com/:f:/g/personal/k1919691_kcl_ac_uk/EqZaY-_FrGdImybIGuMCvb8Bo_YD1Bc9ATBxbLxdDIv0RA?e=5%3aHhLp91&fromShare=true&at=9). The dataset is available as a randomly shuffled list of (input and target) spectra cell images. The corresponding input and target cell images are also available [here](https://emckclac-my.sharepoint.com/:f:/g/personal/k1919691_kcl_ac_uk/EhtDDsvQ4KpJidvKQjSGBOYB-2VpfwDgKy8LDWMXe6DB3w?e=UjXZU5).
 2. Edit /Raman Spectral Denoising/train.py to point towards the dataset path.
 3. In your python environment, run /Raman Spectral Denoising/train.py with your chosen options, e.g.:
     ```bash
